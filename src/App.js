@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Home } from './Home'
+import { About } from './About'
+import { Contact } from './Contact'
+import { NoMatch } from './NoMatch'
 
 
 class App extends Component {
@@ -13,7 +17,7 @@ class App extends Component {
             <Route path="/contact" component={Contact} />
             <Route component={NoMatch} />
           </Switch>
-        </Router>
+        </Router> 
       </React.Fragment>
       );
   }
