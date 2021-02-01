@@ -5,10 +5,10 @@ import cityImage from '../assets/cityImage.jpg';
 
 
 const Styles = styled.div `
-  .jumbotron {
+  .jumbo {
     background: url(${cityImage}) no-repeat fixed bottom;
     background-size: cover;
-    color: #ccc;
+    color: #efefef;
     height: 200px;
     position: relative;
     z-index: -2;
@@ -32,8 +32,7 @@ export const Jumbotron = () => (
     <Jumbo fluid className="jumbo">
       <div className="overlay"></div>
       <Container>
-        <h1>Welcome</h1>
-        <p>Here's a little bit about me...</p>
+        <h1>Welcome!</h1>
       </Container>
     </Jumbo>
   </Styles>
