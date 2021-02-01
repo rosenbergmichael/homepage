@@ -9,7 +9,7 @@ const Styles = styled.div `
     background: url(${cityImage}) no-repeat fixed bottom;
     background-size: cover;
     color: #efefef;
-    height: 200px;
+    height: 300px;
     position: relative;
     z-index: -2;
   }
@@ -32,7 +32,6 @@ export const Jumbotron = () => (
     <Jumbo fluid className="jumbo">
       <div className="overlay"></div>
       <Container>
-        <h1>Welcome!</h1>
       </Container>
     </Jumbo>
   </Styles>
