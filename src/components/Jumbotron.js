@@ -4,7 +4,16 @@ import styled from 'styled-components';
 import cityImage from '../assets/cityImage.jpg';
 
 
-const Styles = styled.div ``;
+const Styles = styled.div `
+  .jumbotron {
+    background: url(${cityImage}) no-repeat fixed bottom;
+    background-size: cover;
+    color: #ccc;
+    height: 200px;
+    position: relative;
+    z-index: -2;
+  }
+`;
 
 export const Jumbotron = () => (
   <Styles>
