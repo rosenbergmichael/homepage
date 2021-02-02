@@ -3,9 +3,11 @@ import React from 'react'
 export const Contact = () => (
     <div>
       <br></br>
-      <h2>Contact Info- Feel Free to Reach Out!</h2>
+      <h2>Looking Forward to Connecting!</h2>
       <br></br>
-      <p>E: rosenbergmj1@gmail.com</p>
-      <p>C: 862-219-0320</p>
+      <br></br>
+      <h4>E: rosenbergmj1@gmail.com</h4>
+      <br></br>
+      <h4>C: 862-219-0320</h4>
     </div>
   )
