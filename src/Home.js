@@ -6,7 +6,12 @@ export const Home = () => (
       <h2>Michael Rosenberg</h2>
       <p>Line 1</p>
       <p>Line 2</p>
-      <p>Line 3</p>
+      <br></br>
+      <br></br>
+      <a href="https://github.com/rosenbergmichael">Github</a>
+      <br></br>
+      <br></br>
+      <a href="https://michaeljrosenberg.medium.com/">Medium Blogs</a>
     </div>
   )
 
