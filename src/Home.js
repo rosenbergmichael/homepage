@@ -11,7 +11,10 @@ export const Home = () => (
       <a href="https://github.com/rosenbergmichael">Github</a>
       <br></br>
       <br></br>
-      <a href="https://michaeljrosenberg.medium.com/">Medium Blogs</a>
+      <a href="https://michaeljrosenberg.medium.com/">Medium</a>
+      <br></br>
+      <br></br>
+      <a href="https://www.linkedin.com/in/michael-j-rosenberg/">LinkedIn</a>
     </div>
   )
 
